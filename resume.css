@@ -1,0 +1,57 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+.full {
+	width: 64%;
+	max-width: 1500px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(162, 202, 206);;
+	padding: 30px;
+    
+
+}
+.right {
+	position: initial;
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+h2 {
+	background-color:darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.Skills ul li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue
+}
+h3{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform:uppercase;
+}
